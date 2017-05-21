@@ -1,0 +1,113 @@
+body {
+	background-color: #f4f4f8;
+	padding: 0.25em;
+}
+
+.container {
+	margin: auto;
+	width: 100vw;
+	max-width: 90vw;
+	padding: 0.25em;
+	background-color: #fff;
+	border: 1px solid #e2e2e4;
+	border-radius: 4px;
+}
+
+.btn-radio-box {
+	display: block;
+	padding: 0.25em;
+	border: 2px solid #ababab;
+	border-radius: 4px;
+
+	margin-bottom: 0.85em;
+
+	transition-property: border-color;
+	-webkit-transition-property: border-color;
+	transition-duration: 500ms;
+	-webkit-transition-duration: 500ms;
+}
+
+.btn-radio-box:hover {
+	border: 2px solid #6f6fff;
+}
+
+.btn-radio-box.active {
+	border: 2px solid #1a0bff;
+}
+
+.btn {
+	cursor: pointer;
+
+	padding: 1.05em;
+	display: inline-block;
+	text-align: center;
+	vertical-align: central;
+	
+	border: 1px solid;
+	border-radius: 4px;
+
+	transition-property: color, background-color, border-color, opacity;
+	-webkit-transition-property: color, background-color, border-color, opacity;
+	transition-duration: 500ms;
+	-webkit-transition-duration: 500ms;
+}
+
+.btn:hover {
+	opacity: 0.85;
+}
+
+.btn-radio-group .btn {
+	margin-right: 0.3em;
+}
+
+.btn.btn_yellow {
+	color: #000;
+	background-color: #ff0;
+	border-color: #dd0;
+}
+
+.btn.btn_active.btn_yellow {
+	color: #ff0;
+	background-color: #fff;
+	border-color: #ff0;
+}
+
+.btn.btn_red {
+	color: #000;
+	background-color: #f00;
+	border-color: #d00;
+}
+
+.btn.btn_active.btn_red {
+	color: #f00;
+	background-color: #fff;
+	border-color: #f00;
+}
+
+.btn.btn_blue {
+	color: #000;
+	background-color: #00f;
+	border-color: #00d;
+}
+
+.btn.btn_active.btn_blue {
+	color: #00f;
+	background-color: #fff;
+	border-color: #00f;
+}
+
+.btn.btn_green {
+	color: #000;
+	background-color: #0f0;
+	border-color: #0d0;
+}
+
+.btn.btn_active.btn_green {
+	color: #0f0;
+	background-color: #fff;
+	border-color: #0f0;
+}
+
+.text-red {
+	color: #f00;
+}
