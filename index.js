@@ -41,7 +41,7 @@ Vue.component('btn-radio-box', {
 '<div \
      v-on:click="groupClick" \
      class="btn-radio-box" \
-     v-bind:class="{ active:checked }"> \
+     v-bind:class="{ \'btn-radio-box_active\':checked }"> \
 	 <slot></slot> \
 </div>',
 	
