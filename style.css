@@ -23,15 +23,17 @@ body {
 
 	transition-property: border-color;
 	-webkit-transition-property: border-color;
+	-o-transition-property: border-color;
 	transition-duration: 500ms;
 	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
 }
 
 .btn-radio-box:hover {
 	border: 2px solid #6f6fff;
 }
 
-.btn-radio-box.active {
+.btn-radio-box.btn-radio-box_active {
 	border: 2px solid #1a0bff;
 }
 
@@ -48,8 +50,10 @@ body {
 
 	transition-property: color, background-color, border-color, opacity;
 	-webkit-transition-property: color, background-color, border-color, opacity;
+	-o-transition-property: color, background-color, border-color, opacity;
 	transition-duration: 500ms;
 	-webkit-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
 }
 
 .btn:hover {
